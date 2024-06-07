@@ -1,0 +1,235 @@
+# Site
+repository: jeremypai/jeremypai.github.io
+favicon: assets/favicon.ico
+
+# Personal info
+name: Jeremy Pai (Li-Chieh, Pai)
+title: Software Engineer
+tagline: Software Engineer (AI)
+description: Software Engineer strongly focusing on Computer Vision with AI
+email: jeremypai1128@gmail.com
+phone: "+886-987-868-179"
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username: jeremypai
+linkedin_username: li-chieh-pai-90008b208
+
+# Additional icon links
+additional_links:
+  - title: Link name
+    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: assets/photo-of-me.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi there! My name is Jeremy.
+
+  I possess 3 years of industry experience, with a strong foundation in computer vision algorithms and deep learning techniques.
+  One of my core strengths lies in my ability to seamlessly transition to new technologies and frameworks, consistently demonstrating a high degree of agility and adaptability throughout my career.
+
+  Driven by a passion for continuous learning and a commitment to excellence, I thrive in fast-paced environments where I can leverage my expertise to drive innovation and deliver tangible results. 
+  With a robust background in computer vision and deep learning techniques, I am well-positioned to make significant contributions to any organization looking to leverage the potential of these cutting-edge technologies.
+
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-left
+        title: HTC VIVE
+        sub_title: Computer Vision Algorithm Engineer
+        caption: June 2021 - present
+        link:
+        quote: >
+          HTC VIVE builds fully immersive virtual reality products that enable people to work, play, learn, and experience 
+          the world in ways never thought possible
+        description: | # this will include new lines to allow paragraphs
+          + Deployed a video prediction model based on semantic information to increase computing efficiency
+          + Identified and resolved bottlenecks in the algorithms, which improved computing efficiency by up to 50%
+          + Established a model to determine the 3D position of objects based on camera images, with an error of approximately 1%
+          + Delivered development environments using Docker to guarantee consistent results for others
+          + Deployed algorithms on a mobile device with an upgraded Android platform
+  # - title:
+  #   layout: list
+  #   content:
+  #     - layout: top-left
+  #       title: Company name
+  #       sub_title: Job title
+  #       caption: Date Range (eg. November 2016 - present)
+  #       link: Link to company (optional)
+  #       quote: >
+  #         Short description of the company (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description of role
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: National Chiao Tung University
+        sub_title: Master's Degree, Electro-Optical Engineering
+        caption: September 2018 - August 2020
+        quote:
+        description: | # this will include new lines to allow paragraphs
+          Advisor: Chia-Wei Sun
+          + Devised an attention-based deep learning model to classify brain tumors on OCT images with 93.2% sensitivity and 99.8% 
+            specificity on Gliomas, and 100% sensitivity and 96.0% specificity on Lymphomas
+          + Refined the foundation model with a self-attention mechanism and achieved greater accuracy, improving the sensitivity 
+            by approximately 1.3% and the specificity by approximately 1.3% on Gliomas, and the specificity by approximately 1.5% on Lymphomas
+          + Visualized the deep learning model with Grad-CAM and t-SNE to explore what the model had learned
+          + Published brain tumor research on OCT images with deep learning model
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: 3D Gaussian Splatting
+        link: https://github.com/jeremypai/3D-Gaussian-Splatting
+        link_text: jeremypai/3D-Gaussian-Splatting
+        additional_links:
+          - title: graphdeco-inria/gaussian-splatting/tree/main
+            icon: fab fa-github
+            url: https://github.com/graphdeco-inria/gaussian-splatting/tree/main
+          - title: "3D Gaussian Splatting (GS) — Technique of 3D Scene Reconstruction"
+            icon: fab fa-medium
+            url: https://medium.com/lifes-a-struggle/3d-gaussian-splatting-gs-technique-of-3d-scene-reconstruction-462523891139
+        quote: >
+          A record of my experience in generating a 3D scene from scratch.
+        description: | # this will include new lines to allow paragraphs
+          3D Gaussian Splatting has attracted significant interest due to its capability for photorealistic scene reconstruction and fast rendering.
+          The result is remarkably impressive, especially considering this is my initial attempt at creating such a photorealistic scene.
+          The original images used for this project, which I gathered myself, are stored in this repository.
+          I discovered that acquiring suitable input images is arguably the most demanding aspect of Gaussian Splatting, as the quality of these 
+          source images can profoundly influence the fidelity of the reconstructed scene.
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Docker for SNPE v2.14 Development
+        link: https://github.com/jeremypai/docker-snpe-v2.14
+        link_text: jeremypai/docker-snpe-v2.14
+        additional_links:
+          - title:  jeremypai/docker-snpe-v2.14
+            icon: fab fa-github
+            url: https://github.com/jeremypai/docker-snpe-v2.14
+        quote: >
+          Deploying a Docker container ensures a consistent and reproducible development environment across different systems
+        description: | # this will include new lines to allow paragraphs
+          This repository outlines a comprehensive workflow to prepare a custom neural network model that can be deployed on Qualcomm's chip platform, 
+          leveraging the Qualcomm Snapdragon Neural Processing Engine as a reference.
+          This repository also includes a Dockerfile and accompanying scripts to streamline the setup of a development environment, ensuring all necessary components are properly configured.
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Docker for SNPE v1.52 Development
+        link: https://github.com/jeremypai/docker-snpe-v1.52
+        link_text: jeremypai/docker-snpe-v1.52
+        additional_links:
+          - title:  jeremypai/docker-snpe-v1.52
+            icon: fab fa-github
+            url: https://github.com/jeremypai/docker-snpe-v1.52
+        quote: >
+          Deploying a Docker container ensures a consistent and reproducible development environment across different systems
+        description: | # this will include new lines to allow paragraphs
+          This repository outlines a comprehensive workflow to prepare a custom neural network model that can be deployed on Qualcomm's chip platform, 
+          leveraging the Qualcomm Snapdragon Neural Processing Engine as a reference.
+          This repository also includes a Dockerfile and accompanying scripts to streamline the setup of a development environment, ensuring all necessary components are properly configured.
+
+      - layout: top-middle
+        border:
+        title: Brain Tumor Classification System
+        link: https://github.com/jeremypai/OCT
+        link_text: jeremypai/OCT
+        additional_links:
+          - title:  Differentiation of primary central nervous system lymphoma from glioblastoma using optical coherence tomography based on attention ResNet
+            icon: fab fa-google
+            url: https://www.spiedigitallibrary.org/journals/neurophotonics/volume-9/issue-1/015005/Differentiation-of-primary-central-nervous-system-lymphoma-from-glioblastoma-using/10.1117/1.NPh.9.1.015005.full?SSO=1#_=_
+        quote: >
+          A codebase I developed while pursuing a master's degree.
+        description: | # this will include new lines to allow paragraphs
+          This repository contains the preprocessing algorithms, deep learning models, and visualization tools that were utilized in my master's thesis research and the publication.
+
+  # - title:
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any
+  #                     # other value (or no value) means no border will be displayed
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ## Programming Languages
+      + C/C++
+      + Python
+      
+      ## Algorithms
+      + Artificial Intelligence
+      + Computer Vision
+      + Image Processing
+      
+      ## Tools
+      + Git
+      + Docker
+      + Linux/Android
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
